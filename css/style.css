@@ -79,6 +79,7 @@ section.banner p button i {
     background: url(../images/iPhone-13-Pro-Front.png) ,#FBBC05 ;
     width: 500px;
     height: 500px;
+    border-radius: 50%;
 }
 
 /* header nav ul, header nav, header nav ul {
