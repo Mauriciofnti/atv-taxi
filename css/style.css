@@ -30,11 +30,55 @@ header {
     padding: 2vw 8vw;
 }
 
+section.banner {
+    background: url(../images/iPhone-13-Pro-Front.png) no-repeat right,  url(../images/background-footer.png), linear-gradient(rgba(225,244,255,1),rgba(225,244,255,1));
+    padding: 10vw 8vw;
+    background-size: auto 80%, 100% auto,auto;
+}
+
+section.banner h2 {
+    font-size: 2rem;
+    font-weight: 50%;
+    color: rgb((37), 43, 67)
+}
+
+section.banner p.text {
+    width: 30%;
+}
+
+section.banner p {
+    margin: 40px 0;
+}
+
+section.banner p.text {
+    width: 30%;
+    color: gray
+}
+
+section.banner p button {
+    background-color: #374660;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+section.banner p button i {
+    margin: 0 5px 0 0;
+}
+
 .banner {
     background: url(/images/background-footer.png) fixed;
 }
 .banner div p button {
     font-family: "Montserrat", sans-serif;
+}
+
+.img-cel {
+    background: url(../images/iPhone-13-Pro-Front.png) ,#FBBC05 ;
+    width: 500px;
+    height: 500px;
 }
 
 /* header nav ul, header nav, header nav ul {
