@@ -10,6 +10,9 @@ a {
     color: black;
     text-decoration: none;
 }
+h2{
+    font-size: 2rem;
+}
 a.logo {
     display: flex;
     align-items: center;
@@ -82,9 +85,87 @@ section.banner p button i {
     border-radius: 50%;
 }
 
+section.ready {
+    
+}
+
+section.ready > h2, section.ready > p {
+    text-align: center;
+}
+
+section.ready h2 {
+    font-size: 2rem;
+    margin: 15px;
+}
+
+section.ready > p {
+    font-size: .8rem;
+    margin: 0 0%;
+}
+
+
+section.ready div {
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-around;
+
+    
+}
+
+section.ready div ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 40px;
+    width: 40%;
+}
+
+section.ready div ul li {
+    max-width: 300px;
+    margin: 0 3%;
+    width: 40%;
+}
+
+section.download {
+    padding: 10%;
+}
+
+section.download div {
+    background: url(../images/iPhone-13-Pro-Front.png) no-repeat, url(../images/iPhone-13-Pro-Front.png) no-repeat,#FBBC05;
+    background-size: 20% auto, 20% auto, auto;
+    
+    background-position: 70% 180%, 90% -80%;
+    padding: 5%;
+    border-radius: 15px;
+    color: #FFF;        
+}
+
+section.download p {
+    margin: 10px 0;
+    max-width: 50%;
+}
+
+section.download button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    background-color: #252B42;
+}
+
+
 /* header nav ul, header nav, header nav ul {
     display: flex;
 } */
+
+@media (max-width:700px) {
+    section.ready div {
+        display: block;
+    }    
+    section.ready div ul {
+        margin: 0;
+    }
+}
 
 
 @media (min-width:1024px) {
