@@ -153,10 +153,39 @@ section.download button {
     background-color: #252B42;
 }
 
+section.know > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.know > div > div {
+    margin-left: 30px;
+}
+
+section.know div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.know div ul li {
+    width: 35%;
+    margin: 0 5px 10px 5px;
+    padding: 15px;
+    background-color: #F6F6F6;
+}
+
+section.know div ul li:hover {
+    background-color: #FBBC05;
+    transition: all .4s;
+}
+
 
 /* header nav ul, header nav, header nav ul {
     display: flex;
 } */
+
+
 
 @media (max-width:700px) {
     section.ready div {
